@@ -62,11 +62,11 @@ export default function MainContent({
             <p className="text-[#FFEEC9] text-sm w-[200px] pb-4 lg:text-2xl text-center sm:w-[300px]">
               {sectionLanzamientos.text}
             </p>
-            <div className="flex flex-col items-center justify-center w-full sm:text-start text-sm lg:text-2xl lg:pb-[80px]">
+            <div className="flex flex-col items-center justify-center w-full sm:text-start text-sm lg:flex-row lg:text-2xl lg:pb-[80px]">
               <p className="lg:pt-[20px] pb-4 text-[10px] lg:text-lg w-[150px] text-[#FFEEC9]">
                 {sectionLanzamientos.link}
               </p>
-              <button className="lg:w-[70px] lg:h-[70px]">
+              <button className="lg:w-[80px] lg:h-[80px] lg:ml-4">
                 <img
                   src={sectionLanzamientos.icon}
                   alt="Zoom"

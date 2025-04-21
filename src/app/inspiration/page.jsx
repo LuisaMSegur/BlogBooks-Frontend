@@ -16,11 +16,11 @@ export default function InspirationPage() {
       sectionLanzamientos={
         {
           bgColor: "bg-[#690B22]",
-          imgSrc: "/images/mozart.png",
+          imgSrc: "/images/Mozart.png",
           title: "Para ser maestro no necesitas ser superdotado",
           subtitle: "Basado en el libro de Robert Greene, te mostraré el paso a paso para lograr la maestria en cualquier area",
           text: "Proximamente",
-          link: "Conexión por zoom, haz click --->",
+          link: "Conexión por zoom, haz click -->",
           icon: "/images/icons8-zoom-100.png",
         }
       }
