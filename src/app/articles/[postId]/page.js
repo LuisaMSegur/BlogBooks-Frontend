@@ -53,9 +53,9 @@ export default function ArticlePage({ params }) {
       </header>
       <div className="md:grid md:grid-cols-3 w-full text-emerald-950">
         <article className="bg-[#FFAF99] min-h-screen col-span-2 max-w-4xl my-10 mx-[40px] p-6 rounded-lg break-words">
-          <h2 className="text-2xl font-bold">{post.title}</h2>
+          <h2 className="text-md lg:text-2xl font-bold">{post.title}</h2>
           <div
-            className={`mt-4 transition-all duration-300 ${
+            className={`text-sm mt-4 transition-all duration-300 ${
               expanded ? "h-auto" : "max-h-[600px] overflow-hidden"
             }`}
             dangerouslySetInnerHTML={{

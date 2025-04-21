@@ -23,7 +23,7 @@ export default function MainContent({
               posts.map((post) => (
                 <li
                   key={post.id}
-                  className="rounded-lg bg-[#E3927C] hover:scale-105 hover:opacity-[80%] cursor-pointer"
+                  className="rounded-lg bg-[#E3927C] hover:scale-90 hover:opacity-[80%] cursor-pointer"
                 >
                   <Link href={`/articles/${post.id}`}>
                     <div className="rounded-lg bg-[#E3927C] hover:scale-105 hover:opacity-[80%] cursor-pointer">
@@ -56,14 +56,14 @@ export default function MainContent({
             <h2 className="text-xl md:text-4xl pt-6 pb-6 lg:text-6xl text-[#FFEEC9] text-center pt-8">
               {sectionLanzamientos.title}
             </h2>
-            <p className="text-[#FFEEC9] pb-5 px-4 text-sm text-center max-w-[500px]">
+            <p className="text-[#FFEEC9] pb-5 px-4 text-sm text-center lg:text-lg max-w-[500px]">
               {sectionLanzamientos.subtitle}
             </p>
             <p className="text-[#FFEEC9] text-sm w-[200px] pb-4 lg:text-2xl text-center sm:w-[300px]">
               {sectionLanzamientos.text}
             </p>
             <div className="flex flex-col items-center justify-center w-full sm:text-start text-sm lg:text-2xl lg:pb-[80px]">
-              <p className="lg:pt-[20px] pb-4 text-[10px] w-[150px] text-[#FFEEC9]">
+              <p className="lg:pt-[20px] pb-4 text-[10px] lg:text-lg w-[150px] text-[#FFEEC9]">
                 {sectionLanzamientos.link}
               </p>
               <button className="lg:w-[70px] lg:h-[70px]">
